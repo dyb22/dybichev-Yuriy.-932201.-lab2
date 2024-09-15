@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+   padding: 10px;
+    background-color: white;
+    overflow:auto;
+     
+}
+
+main{
+    
+  
+}
+
+.b1,.b2,.b3,.b4,.b5{
+    width: 180px;
+    height: 115px;
+   
+}
+
+.b1{
+    background-color: purple;
+    position: static;
+}
+
+.b2{
+    background-color: crimson; 
+    position: relative;
+}
+
+.b3{
+    background-color:peru;  
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.b4{
+    background-color: rgb(179, 77, 63);
+    width: 700px;
+    height: 500px; 
+    position: relative;
+}
+
+.b5{
+    background-color: rgb(82, 8, 129);
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+div{
+    color: white;
+}
+
+.fixed{
+    bottom: 0;
+    right: 0;
+    background-color: green; 
+    position: fixed;
+    width: 180px;
+    height: 115px;
+   
+}
+

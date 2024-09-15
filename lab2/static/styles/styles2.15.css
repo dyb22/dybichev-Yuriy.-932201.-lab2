@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+   padding: 10px;
+    background-color: rgb(255, 255, 255);
+    overflow:auto;
+    margin: 0;
+     
+}
+
+.container{
+   display:grid;
+   grid-template-rows: 1fr 1fr auto; 
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.inline{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+    
+}
+
+.inlinenoclear{
+    background-color: rgb(252, 213, 151);
+    grid-row: auto;
+    grid-column: 1 / -1;
+    
+}
